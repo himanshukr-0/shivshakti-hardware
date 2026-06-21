@@ -66,7 +66,7 @@ export default function Footer() {
             <li className="flex items-start gap-2"><MapPin className="h-5 w-5 shrink-0 text-primary" /> {BUSINESS.address}</li>
             <li className="flex items-center gap-2"><Phone className="h-5 w-5 shrink-0 text-primary" /> <a href={`tel:${BUSINESS.phone}`} className="hover:text-primary">{BUSINESS.phoneDisplay}</a></li>
             <li className="flex items-center gap-2"><Phone className="h-5 w-5 shrink-0 text-primary" /> <a href={`tel:+917870015153`} className="hover:text-primary">+91 78700 15153</a></li>
-            <li><a href={`https://www.google.com/maps/search/${encodeURIComponent(BUSINESS.mapsQuery)}`} target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">View on Google Maps →</a></li>
+            <li><a href="https://maps.app.goo.gl/TThSHDgBerRQ2zM16" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">View on Google Maps →</a></li>
           </ul>
         </div>
       </div>

@@ -9,8 +9,8 @@ export const BUSINESS = {
   phoneDisplay: "+91 94300 83013",
   whatsapp: "919430083013",
   email: "info@shivshaktihardware.com",
-  address: "Sursand road, near PP Jalan PetrolPump, Janakpur road, sitamarhi, Bihar",
-  mapsQuery: "Shiv Shakti Hardware Sursand road Janakpur road sitamarhi Bihar",
+  address: "Near PP Jalan PetrolPump, Sursand - Pupri road, Janakpur road, Sitamarhi, Bihar",
+  mapsQuery: "Near PP Jalan PetrolPump, Sursand Pupri road, Janakpur road, Sitamarhi, Bihar",
 };
 
 export const waLink = (text: string) =>

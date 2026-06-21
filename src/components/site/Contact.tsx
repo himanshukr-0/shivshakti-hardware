@@ -22,7 +22,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="mt-12 mx-auto max-w-2xl space-y-5"
         >
-          <a href={`https://www.google.com/maps/search/${encodeURIComponent(BUSINESS.mapsQuery)}`} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 rounded-2xl border bg-card p-5 shadow-card transition hover:shadow-glow">
+          <a href="https://maps.app.goo.gl/TThSHDgBerRQ2zM16" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 rounded-2xl border bg-card p-5 shadow-card transition hover:shadow-glow">
             <MapPin className="h-6 w-6 shrink-0 text-primary" />
             <span><span className="block font-bold">Address</span><span className="text-sm text-muted-foreground">{BUSINESS.address}</span></span>
           </a>
@@ -41,7 +41,7 @@ export default function Contact() {
           <div className="overflow-hidden rounded-2xl border shadow-card">
             <iframe
               title="Shiv Shakti Hardware location map"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1785.681024505214!2d85.70650139787288!3d26.47628531805842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1781515704682!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7142.724117769372!2d85.706501!3d26.476285!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1782021644766!5m2!1sen!2sin"
               className="h-64 w-full"
               style={{ border: 0 }}
               allowFullScreen

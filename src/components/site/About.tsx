@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Award, Eye, Phone } from "lucide-react";
 import shop from "@/assets/shop-interior.jpg";
 import founder from "@/assets/founder.jpg";
+import gautam from "@/assets/gautam.jpg";
 import { BUSINESS } from "@/lib/site";
 
 const FOUNDERS = [
@@ -11,14 +12,15 @@ const FOUNDERS = [
     alt: "Mr. Govind Prasad, Founder of Shiv Shakti Hardware",
     phone: "+919430083013",
     phoneDisplay: "+91 94300 83013",
+    objectPosition: "center top",
   },
   {
     name: "Mr. Gautam Prasad",
-    // Drop "gautam.jpg" in src/assets/ and update this import path
-    img: null as string | null,
+    img: gautam,
     alt: "Mr. Gautam Prasad, Founder of Shiv Shakti Hardware",
     phone: "+917870015153",
     phoneDisplay: "+91 78700 15153",
+    objectPosition: "center 20%",
   },
 ];
 
@@ -93,6 +95,7 @@ export default function About() {
                         alt={f.alt}
                         loading="lazy"
                         className="w-full aspect-square rounded-2xl border-4 border-card object-cover shadow-glow"
+                        style={{ objectPosition: f.objectPosition ?? "center top" }}
                       />
                     ) : (
                       /* Placeholder until real photo is added */
