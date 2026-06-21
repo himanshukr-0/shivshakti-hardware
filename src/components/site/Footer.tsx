@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from "lucide-react";
+import { MapPin, Phone, Youtube } from "lucide-react";
 import { BUSINESS } from "@/lib/site";
 
 const QUICK = [
@@ -34,11 +34,15 @@ export default function Footer() {
             construction material supplier — everything needed to build your dream home.
           </p>
           <div className="mt-5 flex gap-3">
-            {[Facebook, Instagram, Youtube].map((Icon, i) => (
-              <a key={i} href="#" aria-label="Social media" className="grid h-9 w-9 place-items-center rounded-full glass-dark transition-transform hover:scale-110 hover:text-primary">
-                <Icon className="h-4 w-4" />
-              </a>
-            ))}
+            <a
+              href="https://youtu.be/HuTXmpT_hlQ?si=Mk_DT5S5uxtZX6Zg"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="grid h-9 w-9 place-items-center rounded-full glass-dark transition-transform hover:scale-110 hover:text-primary"
+            >
+              <Youtube className="h-4 w-4" />
+            </a>
           </div>
         </div>
 
